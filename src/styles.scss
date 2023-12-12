@@ -1,26 +1,18 @@
-@use '/src/app/config.scss/rem-calc.scss';
-@use '/src/app/config.scss/reset.scss';
-@use '/src/app/config.scss/variables.scss';
+@import '/src/app/config.scss/rem-calc.scss';
+@import '/src/app/config.scss/reset.scss';
+@import '/src/app/config.scss/variables.scss';
 
 
 
-        html{
-        
-            background-color: var(--primary-color);
-            font-family: 'Roboto';
-
-
-
+ html{
+ background-color: var(--primary-color);
+font-family: 'Roboto';
 
         }
-
-
-
-
-        main{
-
-        max-width: rem-calc(600);
-                margin: 0 auto;
-                box-sizing: border-box;
+ 
+ main{
+ max-width: rem-calc(600);
+ margin: 0 auto;
+ box-sizing: border-box;
 
         }

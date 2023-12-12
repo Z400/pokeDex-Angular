@@ -17,6 +17,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
+	font-weight: 400;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -42,4 +43,10 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+input{
+outline: none;
+font-weight: 100;
+
 }
