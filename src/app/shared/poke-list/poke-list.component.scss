@@ -1,6 +1,8 @@
 @import '../../../app/config.scss/rem-calc.scss';
 
+
 :host{
+.listagem{
 display: flex;
 justify-content: space-between;
 padding: rem-calc(20  ) 0;
@@ -15,6 +17,9 @@ width: calc(46% - 2.5rem);
 padding: rem-calc(20);
 margin-bottom: rem-calc(20);
 border-radius: rem-calc(10);
+text-decoration: none;
+color: var(--primary-color);
+ 
  
    
 &__status{
@@ -79,4 +84,5 @@ border-radius: rem-calc(10);
 
 }
 
+}
 }
