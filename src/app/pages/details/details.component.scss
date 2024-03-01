@@ -5,7 +5,7 @@
 :host {
 	main {
 		margin-top: rem-calc(40);
-
+		
 		.pokemon__names {
 			position: relative;
 			display: flex;
@@ -115,7 +115,30 @@
 					min-height: 57vh;
 					padding-top: rem-calc(50);
 				}
+				
 			}
-		}
+		}.btn__secondary{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: var(--secondary-color);
+				padding: rem-calc(10) 0;
+				font-size: rem-calc(20);
+				border-radius: rem-calc(10);
+				
+				}
+				.btn__secondary:hover{
+					 
+					-webkit-transform: scale(1.1);
+					-moz-transform: scale(1.1);
+					-o-transform: scale(1.1);
+					-ms-transform: scale(1.1);
+					transform: scale(1.1);
+					 
+				}
+	
+	
+	
+	
 	}
 }
